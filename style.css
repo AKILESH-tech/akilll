@@ -1,0 +1,655 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+body {
+    margin-top: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+  display: flex;
+    /* justify-content:space-between; */
+  background-color: black;
+  padding-left: 70px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: 0px;
+  position: fixed;
+  width: 100dvw;
+
+}
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.uil {
+    font-size: 25px;
+}
+
+ul{
+    color:rgb(255, 255, 255);
+    list-style-type : none;
+
+}
+.first{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center ;
+    padding-left: 20px;
+
+}
+.first li:hover{
+    background-color: rgb(124, 125, 125);
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
+}
+
+.first li{
+    padding: 15px;
+    width: max-content;
+
+}
+.second{
+    color: white;
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 200px;
+}
+
+.second li{
+    padding: 15px;
+}
+
+.second li:hover{
+    background-color: rgb(124, 125, 125);
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
+}
+.head-low{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+     margin-top: 5px;
+}
+.head-low-item-1{
+ padding: -1px;
+}
+
+.head-low-item-2{
+  font-size: 19px;
+  margin-left: -5px;
+ align-self:center;
+
+}
+
+.ip1{
+    width: 650px;
+    height: 60px;
+    background-color: rgb(241, 234, 234);
+     border: none;
+    margin-left: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+
+.b1{
+    background-color: #00838C;
+    color: white;
+    margin-left: -3px;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+    height: 60px;
+    width: 160px;
+    
+}
+.b1:hover{
+    cursor:pointer;
+}
+.third{
+    display: flex;
+    list-style-type: none;
+    margin-left: -100px;
+    color: black;
+
+}
+
+.third li{
+    padding-left: 40px;
+}
+
+.image{
+background-image:url("Akilesh.jpg");    
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-blend-mode: multiply;
+background-color: rgba(0, 0, 0, 0.22);
+width: 1000px;
+height: 400px;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+}
+
+.c1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: rgb(255, 255, 255);
+}
+.non-image{
+    background-color: rgba(219, 137, 83, 0.866);
+}
+
+.i1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    text-align : left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:300px;
+    margin-left: 30px;
+   
+}
+
+.i2{
+    font-size: medium;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.i3{
+    font-size:xx-large;
+    padding-top: 15px;
+    
+}
+.i4{
+    font-size:smaller;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.i5{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width:150px;
+    font-weight:bold ;
+    height: 50px;
+    border-radius: 5px;
+    margin-top:15px;
+}
+.i5:hover{
+    font-size: 15px;
+    padding: 3px;
+    opacity: 2px;
+    width: 154px;
+    height: 55px;
+    cursor: pointer;
+}
+.i6{
+    font-size: small;
+    padding-top: 15px;
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align : left;
+}
+.f2{
+    font-size: medium;
+    font-weight: 800;
+    padding-top: 15px;
+    
+}
+.f3{
+    font-size: xx-large;
+    padding-top: 15px;
+    
+}
+.ff1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.f4{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size:14px;
+    width:120px;
+    font-weight:bold ;
+    height: 45px;
+    border-radius: 5px;
+    margin-top:15px;
+}
+.f4:hover{
+    font-size: 15px;
+    padding: 3px;
+    opacity: 2px;
+    width:  125px;
+    height: 50px;
+    cursor: pointer;
+}
+.f5{
+    font-size: medium;
+    padding-top: 28px;
+    padding-left: 10px ;
+}
+.f6{
+    padding-top: 5px;
+    font-size: smaller;
+    padding-top:15px;
+}
+
+.p1{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+       font-weight: bolder;
+}
+
+.p2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 520;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.new_grid{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2em;
+    margin-left: 100px ;
+}
+
+.new_grid1{
+    background-image: url("akilesh3.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 600px;
+height: 400px;
+}
+.new_grid2{
+    background-image: url("akilesh2.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 600px;
+height: 400px;
+}
+.new_grid3{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.new_grid4{
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.g1{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder     ;
+}
+.g2{
+    font-size: medium;
+    padding-top: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.g3{
+    font-size: medium;
+    padding-top: 25px;
+  
+}
+.g4{
+    padding-top: 5px;
+    display: flex;
+}
+.p3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.p4{
+    font-size: medium;
+    align-self: flex-end;
+    padding-left: 8px;
+    padding-bottom: 3px;
+}
+.g5{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:  2px solid black;
+    padding: 2px;
+    font-size:15px;
+    width:180px;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    height: 45px;
+    border-radius: 5px;
+    margin-top:35px;
+    margin-bottom: 20px;
+}
+.g5:hover{
+    font-size: 16px;
+    padding: 3px;
+    opacity: 2px;
+    width:  185px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.gg1{
+    height: 500px;
+    background-color: #D2D6D7;
+    background-blend-mode: multiply;
+    /* background-color: rgba(158, 159, 163, 0.464); */
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img1{
+    background-image: url("akilesh7.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+/* background-position:left; */
+width: 750px;
+ height: 500px;
+}
+
+.logo1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    /* margin-left: 30px; */
+    margin-top: 20px;
+    align-items: center;
+    gap: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.a1{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 4px;
+}
+.flexb{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.a2{
+    font-size: 60px;
+    color: black;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+.a5{
+    font-size: 60px;
+    color: black;
+    /* margin-top: 1px; */
+    font-weight: 1000;
+    font-family:'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+}
+
+.a3{
+    font-size: medium;
+    color: black;
+    font-weight: 545;
+    margin-top: 30px;
+    width: 600px;
+    line-height: 1.5;
+}
+
+.a4{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 540;
+    height: 50px;
+}
+
+.footer1{
+    background-color: antiquewhite;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    height: 90px;
+    padding-top: 38px;
+}
+
+.footer2{
+    background-color: rgb(42, 41, 41);
+    height: 50px;
+    display: flex;
+}
+
+.astl{
+    padding-left: 60px ;
+    padding-top: 7px;
+    color: gray;
+    font-size: 35px;
+}
+.utle{
+    font-size: large;
+}
+.ast    {
+    padding-top:14px;
+    padding-left: 20px;
+    color: gray;
+    font-size: 25px;
+}
+.astk{
+    color: white;
+    padding-left: 20px;
+    padding-top: 18px;
+    font-size: large;
+}
+
+.dash{
+    background-color: black;
+    color: gray;
+    height: 180px;
+    padding-left: 100px;
+    border-bottom: 1px solid rgb(226, 218, 218);
+}
+
+.text{
+    color: rgb(91, 91, 91);
+    font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 45px;
+    font-weight: 550;
+    /* padding-left: 70px; */
+}
+
+.text2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.text1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.flexa{
+    display: flex;
+    gap:8px;
+    text-align: end;
+}
+.tt1{
+    display: flex;
+}
+.uils{
+    font-size: 50px;
+}
+.ttr{
+    padding-top: 18px;
+    color: blue;
+    
+    /* font-size: xx-large; */
+}
+.dash1{
+    background-color: black;
+    height: 550px;
+    padding-top: 50px;
+padding-left: 50px;
+    display: flex;
+}
+
+.kak{
+    list-style-type: none;
+    font-size: small;
+width: 130px;
+/* padding-top: 20px ; */
+
+}
+.kak li h3{
+    color: white;
+    font-size: medium;
+}
+.kak li{
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    padding-top: 20px;
+}
+ .kak li:nth-of-type(6){
+    line-height: 1.5;
+}
+.kak1{
+    list-style-type: none;
+    font-size: small;
+    margin-left: 150px;
+width: 100px;}
+
+.kak2{
+    list-style-type: none;
+    font-size: small;
+    margin-left: 110px;
+width: 150px;}
+.kak2 li:nth-of-type(9){
+    line-height: 1.5;
+}
+.kak3{
+    list-style-type: none;
+    font-size: small;
+margin-left: 170px;
+width: 150px;}
+.kak1 li:nth-of-type(2){
+    line-height: 1.5;
+}
+.kak4{
+    list-style-type: none;
+    font-size: small;
+    margin-left: 130px;
+width: 130px;}
+.kak5{
+    list-style-type: none;
+    font-size: small;
+    margin-left: 100px;
+width: 130px;}
+.kak1 li h3{
+    color: white;
+    font-size: medium;
+}
+.kak1 li{
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.kak2 li h3{
+    color: white;
+    font-size: medium;
+}
+.kak2 li{
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.kak3 li h3{
+    color: white;
+    font-size: medium;
+}
+.kak3 li{
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.kak4 li h3{
+    color: white;
+    font-size: medium;
+}
+.kak4 li{
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.kak5 li h3{
+    color: white;
+    font-size: medium;
+}
+.kak5 li{
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+li:hover{
+    /* border-bottom:1px solid white;
+     */
+     text-decoration: underline;
+     cursor:pointer;
+}
